@@ -80,6 +80,21 @@ export default function Users() {
       selector: (row) => row.avatar,
       sortable: true,
     },
+    {
+		name: 'Show',
+		button: true,
+		cell: () => <a href="#">Show</a>,
+	},
+    {
+		name: 'Update',
+		button: true,
+		cell: () => <a href="#">Update</a>,
+	},
+    {
+		name: 'Delete',
+		button: true,
+		cell: () => <a href="#">Delete</a>,
+	},
   ];
 
   return (
