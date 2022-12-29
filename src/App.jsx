@@ -7,6 +7,7 @@ import Signin from './pages/auth/Signin'
 import Signup from './pages/auth/Signup'
 import Home from './pages/home'
 import About from './pages/about'
+import Users from './pages/users'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route element={<WithNavbar/>}>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
+          <Route path='/users' element={<Users/>}/>
         </Route>
       </Routes>
     </Router>

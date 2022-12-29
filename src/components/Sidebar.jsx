@@ -12,7 +12,7 @@ export default function Sidebar() {
             className="brand-image img-circle elevation-1"
             style={{ opacity: ".8" }}
           />
-          <span class="brand-text font-weight-light">AdminLTE 3</span>
+          <span className="brand-text font-weight-light">AdminLTE 3</span>
         </Link>
         <div className="sidebar">
           <nav className="mt-2">
@@ -30,8 +30,14 @@ export default function Sidebar() {
               </li>
               <li className="nav-item">
                 <Link to="/about" className="nav-link">
-                  <i className="nav-icon fas fa-user"></i>
+                <i className="nav-icon fas fa-address-card"></i>
                   <p>About</p>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/users" className="nav-link">
+                <i className="nav-icon fas fa-users"></i>
+                  <p>Users</p>
                 </Link>
               </li>
             </ul>
